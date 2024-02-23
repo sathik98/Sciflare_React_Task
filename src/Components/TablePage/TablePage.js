@@ -797,8 +797,8 @@ const TablePage = () => {
                       className="col-12 product-form-group"
                       style={{ paddingLeft: "0px" }}
                     >
-                      <div>
-                        <table>
+                      <div className="responsive-table">
+                        <table style={{width: "100%"}}>
                           <thead>
                             <tr role="row">
                               <th colspan="1" role="columnheader">
